@@ -34,6 +34,14 @@ public class Contacto {
 		this.telefono = telefono;
 		this.cumpleanos = cumpleanos;
 	}
+	public Contacto(String nombre,String apellido, double telefono, String cumpleaños) {
+		super();
+		this.nombre = nombre;
+		this.telefono = telefono;
+		this.apellido= apellido;
+		this.cumpleanos = cumpleanos;
+	}
+	
 
 
 //getters y setters
@@ -88,8 +96,17 @@ public class Contacto {
 	}
 
 
-
 // metodo toString
+
+	public String getApellido() {
+		return apellido;
+	}
+
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
 
 	@Override
 	public String toString() {
