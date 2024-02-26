@@ -28,6 +28,18 @@ public class Contacto {
 
 // constructor
 
+	public Contacto(String nombre, double telefono, String cumpleanos, String apellido, String apellido2,
+			String direccion) {
+		super();
+		this.nombre = nombre;
+		this.telefono = telefono;
+		this.cumpleanos = cumpleanos;
+		this.apellido = apellido;
+		this.apellido2 = apellido2;
+		this.direccion = direccion;
+	}
+
+
 	public Contacto(String nombre, double telefono, String cumpleaños) {
 		super();
 		this.nombre = nombre;
