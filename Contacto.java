@@ -10,6 +10,8 @@ public class Contacto {
 	private String nombre;
 	private double telefono;
 	private String cumpleanos;
+	private String apellido;
+	
 	
 	
 	
