@@ -82,9 +82,20 @@ public class Contacto {
 	public void setCumpleaños(String cumpleanos) {
 		this.cumpleanos = cumpleanos;
 	}
+	
 
 
 // metodo toString
+
+	public String getApellido() {
+		return apellido;
+	}
+
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
 
 	@Override
 	public String toString() {
