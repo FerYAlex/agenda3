@@ -12,6 +12,7 @@ public class Contacto {
 	private String cumpleanos;
 	private String apellido;
 	private String apellido2;
+	private String direccion;
 
 	
 	
