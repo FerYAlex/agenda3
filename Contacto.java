@@ -13,6 +13,8 @@ public class Contacto {
 	private String apellido;
 	private String apellido2;
 	private String direccion;
+	private int edad;
+	
 
 	
 	
@@ -24,6 +26,21 @@ public class Contacto {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+
+
+public Contacto(String nombre, double telefono, String cumpleanos, String apellido, String apellido2,
+			String direccion, int edad) {
+		super();
+		this.nombre = nombre;
+		this.telefono = telefono;
+		this.cumpleanos = cumpleanos;
+		this.apellido = apellido;
+		this.apellido2 = apellido2;
+		this.direccion = direccion;
+		this.edad = edad;
+	}
+
 
 
 // constructor
