@@ -18,6 +18,8 @@ public class Contacto {
 	
 	
 	
+	
+
 	public Contacto() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -74,6 +76,17 @@ public class Contacto {
 	public void setCumpleaños(String cumpleanos) {
 		this.cumpleanos = cumpleanos;
 	}
+	
+	
+	public String getDireccion() {
+		return direccion;
+	}
+
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
 
 
 // metodo toString
